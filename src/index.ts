@@ -3,4 +3,4 @@ import { messagesRouter } from "./router/MessagesRouter"
 
 app.use('/messages', messagesRouter)
 
-httpServer.listen(3333, () => console.log('Server running on port 3333'))
+httpServer.listen(4444, () => console.log('Server running on port 4444'))
